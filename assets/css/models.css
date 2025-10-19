@@ -1,0 +1,27 @@
+
+
+.models_main_cont{
+	width: 100%;
+	min-height: 200px;
+	border: 1px solid black;
+}
+
+.model_block{
+	width: 100%;
+	height: 200px;
+	border: 1px solid red;
+	display: flex;
+}
+.model_block_img{
+	width: 30%;
+	height: 100%;
+}
+.model_block_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.model_block_desc{
+	width: 70%;
+	height: 100%;
+}
