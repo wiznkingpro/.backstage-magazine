@@ -429,8 +429,6 @@ footer{
 	.content_main_page_last_photos{
 		width: 100%;
 		height: 100%;
-
-
 		grid-template-columns: repeat(1, 1fr);
 /*		*/
 		gap: 10;

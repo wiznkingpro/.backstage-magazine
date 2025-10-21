@@ -13,6 +13,15 @@
 </head>
 <body>
 	<div class="background_nav"></div>
+	<div class="main_menu" id="main_menu">
+		<div class="main_menu_content">
+			<a href="index.html"><button class="menu-item">.News</button></a>
+			<a href="fashion.html"><button class="menu-item">.Fashion</button></a>
+			<a href="models.html"><button class="menu-item">.Models</button></a>
+			<a href="shop.html"><button class="menu-item">.Shop</button></a>
+			<a href="mailing.html"><button class="menu-item">.Mailing</button></a>
+		</div>
+	</div>
 	<div class="search_menu" id="search_menu">
 	<div class="search_content">
 		<h1 class="logo search-logo">.backstage <span class="logo-slogan">magazine</span></h1>
@@ -24,14 +33,16 @@
 </div>
 	<nav id="nav">
 		<div class="nav_left">
-			<button><a href="index.html">Menu</a></button>
+			<button onclick="openMainMenu()">Menu</button>
 			<button onclick="openSearchMenu()">Search</button>
 		</div>
 		<div class="nav_center">
 			<h1 class="logo">.backstage <p class="logo-slogan">magazine</p></h1>
 		</div>
 		<div class="nav_right">
-			<button>Shop</button>
+			<a href="shop.html">
+				<button>Shop</button>
+			</a>
 		</div>
 	</nav>
 
@@ -127,13 +138,16 @@
 	
 		
 		<footer>
-			<h2 class="logo">.backstage <p class="logo-slogan">magazine</p></h2>
+			<h2 class="logo">Your .backstage <p class="logo-slogan">magazine</p></h2>
 		</footer>
 	</div>
 
 
 
 
+	<button id="scrollToTop" class="scroll-to-top" aria-label="Back to top">
+	↑
+	</button>
 
 	<script src="assets/js/index.js"></script>
 </body>
